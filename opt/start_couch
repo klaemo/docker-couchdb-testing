@@ -15,4 +15,4 @@ chmod -R 0770 /usr/local/var/lib/couchdb \
 chmod 664 /usr/local/etc/couchdb/*.ini
 chmod 775 /usr/local/etc/couchdb/*.d
 
-sudo -i -u couchdb couchdb
+exec sudo -i -u couchdb couchdb
