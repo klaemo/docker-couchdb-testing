@@ -2,7 +2,7 @@ YADC (unstable)
 ===
 
 Yet Another Dockerized CouchDB (for testing and RC versions of couchdb).
-Version: `CouchDB 1.6.0rc5`
+Version: `CouchDB 1.6.1rc4`
 
 If you're looking for a stable CouchDB you can check out [klaemo/couchdb](https://index.docker.io/u/klaemo/couchdb/)
 

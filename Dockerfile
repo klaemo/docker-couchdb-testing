@@ -4,7 +4,7 @@ MAINTAINER Clemens Stolle klaemo@fastmail.fm
 
 # Get the source
 RUN cd /opt && \
- wget https://dist.apache.org/repos/dist/dev/couchdb/source/1.6.0/rc.5/apache-couchdb-1.6.0.tar.gz && \
+ wget https://dist.apache.org/repos/dist/dev/couchdb/source/1.6.1/rc.4/apache-couchdb-1.6.1.tar.gz && \
  tar xzf /opt/apache-couchdb-*
 
 # build couchdb
@@ -25,4 +25,5 @@ RUN /opt/couchdb-config
 VOLUME ["/usr/local/var/log/couchdb", "/usr/local/var/lib/couchdb", "/usr/local/etc/couchdb"]
 
 EXPOSE 5984
-ENTRYPOINT ["/opt/start_couch"]
+
+CMD ["/opt/start_couch"]
